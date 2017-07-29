@@ -6,11 +6,11 @@ target 'MoyaRxSwift' do
   use_frameworks!
 
   # Pods for MoyaRxSwift
+  pod 'Moya/RxSwift'
 
   target 'MoyaRxSwiftTests' do
     inherit! :search_paths
     # Pods for testing
-	pod 'Moya/RxSwift'
   end
 
 end
